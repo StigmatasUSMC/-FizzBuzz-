@@ -12,8 +12,7 @@ def FizzBuzz (x):
 while True:
   while True:
     try:
-      x = (input('Give me a number:'))
-      x = float(x)
+      x = float(input('Give me a number:'))
       break
     except ValueError:
       print('Invalid input, try again:')
